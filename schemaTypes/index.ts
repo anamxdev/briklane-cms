@@ -3,6 +3,8 @@ import { featureType } from "./feature"
 import { amenityType } from "./amenity"
 import { propertyDetailType } from "./propertyDetail"
 import { farmhouseType } from "./farmhouse"
+import { categoryType } from "./category";
+import { listingType } from "./listing";
 
 export const schemaTypes = [
   propertyType,
@@ -10,4 +12,6 @@ export const schemaTypes = [
   amenityType,
   propertyDetailType,
   farmhouseType,
+  categoryType,
+  listingType,
 ]
